@@ -1,0 +1,11 @@
+{
+ "id": "swastik",
+ "groups": [
+   "secrets"
+ ],
+ "shell": "/bin/bash",
+ "ssh_keys": [
+   "secret.key1",
+   "secret.key2"
+ ]
+}
