@@ -6,7 +6,8 @@ log_location             STDOUT
 node_name                "swazking123"
 client_key               "#{current_dir}/swazking123.pem"
 chef_server_url          "https://api.chef.io/organizations/swastik"
-cookbook_path            ["#{current_dir}/../cookbooks"]
+#cookbook_path            ["#{current_dir}/../cookbooks"]
+cookbook_path            ["C:/Users/swapanig.ORADEV/git_oracle_repo/oracle_chef_repo/chef-repo/cookbooks/"]
 knife[:editor]="notepad"
 http_proxy               "http://www-proxy.us.oracle.com:80"
 https_proxy              "https://www-proxy.us.oracle.com:80"
