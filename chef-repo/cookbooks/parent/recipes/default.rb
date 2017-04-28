@@ -6,6 +6,8 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+
+=begin
 directory '/home/vagrant/book1/book2/book3' do
   owner 'root'
   group 'root'
@@ -24,4 +26,9 @@ template '/home/vagrant/book1/book2/book3/sudoers' do
     sudoers_users: node['swastik_cookbook_17042017']['sudo']['users'],
     passwordless: true
   })
+end
+=end
+
+testing"working_dir" do
+  
 end
