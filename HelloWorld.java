@@ -1,2 +1,9 @@
+/* HelloWorld.java
+ */
 
-system.out.println("Hello Java World!")
+public class HelloWorld
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+	}
+}
